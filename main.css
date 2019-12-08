@@ -1,18 +1,6 @@
-/*.text-body {
-    float: left;
-    width: 66%;
-}
-
-.picture-body {
-    float: right;
-    width: 33%;
-    height: 100%;
-}*/
 
 .picture {
-    
-    width: inherit;
-    max-width: 80%;
+    max-width: inherit;
     height: auto;
     position: fixed;
     top: 0;
