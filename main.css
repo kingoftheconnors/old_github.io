@@ -27,7 +27,8 @@ section:nth-of-type(even) {
 }
 
 .block {
-    padding-right: 36vw;
+    padding-left: 8%;
+    padding-right: 36%;
     text-align: center;
 }
 
