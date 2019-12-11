@@ -20,6 +20,20 @@ h2 {
     color: white;
 }
 
+.button {
+    color: white;
+    background-color: rgb(0, 57, 83);
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 13pt;
+    transition: all .5s;
+    cursor: pointer; }
+  .button:hover {
+    color: white;
+    background-color: rgb(15, 128, 143);}
+
 section {
     padding: 30px 0;
     margin: 10px 0;
@@ -143,6 +157,19 @@ section:nth-of-type(even) {
 }
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
+}
+
+.icon {
+    width: 75%;
+    padding: 5px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.icon:hover {
+    background-color: lightblue;
 }
 
 /*

@@ -10,4 +10,33 @@ jQuery(document).ready(function(t) {
       t(this).animate({width:n},800)
     })
   })
+
+
+  $('.page-link').click(function() {
+    var anchor = $(this).attr("dest");
+  
+    $('nav span').removeClass('active');
+    $("nav").find('[dest="'+ anchor +'"]').addClass('active');
+  
+    $('html, body').animate({
+      scrollTop: $('#' + anchor).offset().top
+    }, 400);
+  });
+
 })
+
+/*
+// CONTACT FORM
+$('#contact-form').submit(function(e) {
+  e.preventDefault();
+
+    $.ajax({
+        url: "https://formspree.io/mattwilliams85@gmail.com",
+        method: "POST",
+        data: { message: $('form').serialize() },
+        dataType: "json"
+    }).done(function(response) {
+        $('#success').addClass('expand');
+        $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
+    });
+});*/
