@@ -1,0 +1,62 @@
+.picture {
+    width: 100%;
+    margin: auto;
+}
+
+.button {
+    color: white;
+    background-color: rgb(15, 128, 143);
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 12pt;
+    transition: all .5s;
+    cursor: pointer;
+    border: 2px solid rgb(0, 57, 83); }
+  .button:hover {
+    color: white;
+    background-color: rgb(138, 186, 202);}
+
+.row {
+    padding-bottom: 30px;
+}
+
+hr {
+    background-color: black;
+    width: 50%;
+}
+
+h1 {
+    padding: 10px 0px;
+}
+
+.header {
+    padding: 10px;
+}
+
+.picture--arcade {
+    border: 5px solid gray;
+}
+
+.page-footer {
+    padding: 30px;
+    background-color: #04C2C9;
+}
+
+.footer-copyright {
+    padding: 20px;
+}
+
+.icon {
+    width: 75%;
+    padding: 5px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.icon:hover {
+    background-color: lightblue;
+}
