@@ -175,3 +175,28 @@ section:nth-of-type(even) {
     left: 66vw;
     margin: auto;
 }*/
+
+.navigatebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: right;
+  }
+  
+.navigatebar li {
+    float: right;
+  }
+  
+.navigatebar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navigatebar li a:hover {
+    background-color: #111;
+  }
