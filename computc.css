@@ -34,6 +34,10 @@ section:nth-of-type(even) {
     border-radius: 100px;
 }
 
+.picture--centered {
+    margin: auto;
+}
+
 .flex {
     display: flex;
     flex-direction: column;
