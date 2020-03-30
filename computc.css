@@ -29,7 +29,7 @@ section:nth-of-type(even) {
 }
 
 .picture {
-    width: 50%;
+    width: 75%;
     margin: auto;
     border-radius: 100px;
 }
