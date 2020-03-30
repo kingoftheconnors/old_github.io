@@ -51,10 +51,9 @@ section:nth-of-type(even) {
 }
 
 .flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .bar {
     left: 0;
@@ -170,6 +169,15 @@ section:nth-of-type(even) {
 
 .icon:hover {
     background-color: lightblue;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 7.5%;
 }
 
 /*
